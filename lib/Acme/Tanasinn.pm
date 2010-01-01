@@ -31,8 +31,6 @@ our $VERSION = '0.01';
 
 BEGIN
 {
-	binmode STDOUT, ":utf8";
-
 	use base 'Exporter';
 	our @EXPORT = ('tanasinn');
 }
