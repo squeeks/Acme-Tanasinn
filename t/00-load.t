@@ -11,5 +11,3 @@ diag( "Testing Acme::Tanasinn $Acme::Tanasinn::VERSION, Perl $], $^X" );
 my $test_string = tanasinn("Don't perform tests with canned data, feel and you'll be tanasinn.");
 
 like($test_string, qr/\x{2235}/, 'tanasinn');
-
-done_testing(2);
